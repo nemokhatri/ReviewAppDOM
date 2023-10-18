@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <section class="container">
+         <div class="reviews">
+             <h1>Our Reviews</h1>
+             <h1 class="dot"> </h1>
+         </div>
+        <div class="review-card">
+            <div class="img-card">
+                <div class="img">
+                    <img src="./Assets/img-1.jpg" alt="" class="img-1" id="personImage">
+                    <i class='bx bxs-quote-alt-right'></i>
+                    <div class="details">
+                        <b><span class="name" id="nameId">Sarah John</span></b>
+
+                        <span class="job" id="jobTitle" onclick="backHandler()">WEB DEVELOPER</span>
+                    </div>
+                    <p id="description">Exceptional web development HTML, CSS, and JavaScript expertise shines through. Stunning site, quick turnaround. Highly recommended!</p>
+                
+                    
+                </div>
+                <div class="buttons">
+                    <a class="btnBack" id="backBtn" onclick="backward()"> &lt </a>
+                    <a class="btnForward" id="forBtn" onclick="forward()"> &gt </a>
+                </div>
+
+                <div class="surpriseBtn"><button class="surpBtn">Surprise Me</button></div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
